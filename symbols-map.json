@@ -1,0 +1,32 @@
+{
+    "symbols": [
+        {
+            "name": "PASSAGE", 
+            "symbol": "#"
+        },
+        {
+            "name": "DOOR", 
+            "symbol": "+"
+        },
+        {
+            "name": "FLOOR", 
+            "symbol": "."
+        },
+        {
+            "name": "PLAYER", 
+            "symbol": "@"
+        },
+        {
+            "name": "ITEM",
+            "symbol": "*"
+        },
+         {
+            "name": "NS_WALL",
+            "symbol": "-"
+        },
+         {
+            "name": "EW_WALL",
+            "symbol": "|"
+        }                 
+    ]
+}

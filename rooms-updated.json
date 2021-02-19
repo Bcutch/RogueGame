@@ -1,0 +1,56 @@
+{
+    "room": [{
+            "id": 1,
+            "start": true,
+            "height": 10,
+            "width": 20,
+            "doors": [{
+                "dir": "S",
+                "id": 2
+            }],
+            "loot": [{
+                    "id": 1,
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "id": 1,
+                    "x": 8,
+                    "y": 8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "start": false,
+            "height": 10,
+            "width": 20,
+            "doors": [{
+                    "dir": "N",
+                    "id": 1
+                },
+                {
+                    "dir": "S",
+                    "id": 6
+                }
+            ],
+            "loot": []
+        }
+    ],
+    "items": [{
+            "id": 1,
+            "name": "Health Potion",
+            "type": "consumable"
+        },
+        {
+            "id": 2,
+            "name": "Scroll of Fireball",
+            "type": "consumable"
+        },
+        {
+            "id": 3,
+            "name": "Iron Helmet",
+            "type": "equipment"
+        }
+    ]
+}
